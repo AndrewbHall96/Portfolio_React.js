@@ -1,20 +1,14 @@
 import React from "react";
 // import "../styles/Footer.css";
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import FormControl from 'react-bootstrap/FormControl';
-
-function myNavbar() {
+import Jumbotron from 'react-bootstrap/Jumbotron'
+function Navbar() {
     return (
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-                <Nav.Link href="#resume">Resume</Nav.Link>
+                <Nav.Link href="#features">Features</Nav.Link>
+                <Nav.Link href="#pricing">Pricing</Nav.Link>
             </Nav>
             <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -26,4 +20,4 @@ function myNavbar() {
     );
 }
 
-export default myNavbar;
+export default Jumbotron;
