@@ -1,13 +1,13 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Button from 'react-bootstrap/Button'
+import CardDeck from 'react-bootstrap/CardDeck'
 
-function Card() {
+function CardProf() {
     return (
+        <>
         <CardDeck>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src="Assets/images/project_1_images/homePage.1.png" className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
                 <Card.Body>
                     <Card.Title>COVID-19 Test Center Locator</Card.Title>
                     <Card.Text>
@@ -44,7 +44,47 @@ function Card() {
                 </Card.Footer>
             </Card>
         </CardDeck>
+        <CardDeck>
+        <Card>
+            <Card.Img variant="top" src="Assets/images/project_1_images/homePage.1.png" className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
+            <Card.Body>
+                <Card.Title>Crime Mapper</Card.Title>
+                <Card.Text>
+                    Technologies used: React.js, Bootstrap, Heroku, API. This application
+                </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+                <small className="text-muted">Contributors: Chelsey Craig (SC), Tim Withers(SC), Christoper Turton, and Josh Homer</small>
+            </Card.Footer>
+        </Card>
+        <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+                <Card.Title>Read Me Generator</Card.Title>
+                <Card.Text>
+Technologies used: 
+                    {' '}
+                </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+                <small className="text-muted">Andrew Hall</small>
+            </Card.Footer>
+        </Card>
+        <Card>
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Body>
+                <Card.Title>Tik Tok Creator Search</Card.Title>
+                <Card.Text>
+                    Technologies used: React.js . For this application, I created a event scheduler that allows the user to insert events throughtout the day. At the top, the date and time is displayed. You may save, edit and delete events as they are completed throughout the day.
+                </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+                <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Footer>
+        </Card>
+    </CardDeck>
+    </>
     );
 }
 
-export default Card;
+export default CardProf;
