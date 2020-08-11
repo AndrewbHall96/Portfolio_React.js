@@ -11,10 +11,10 @@ function myNavbar() {
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-                <Nav.Link href="#resume">Resume</Nav.Link>
+                <Nav.Link href="/home">Home</Nav.Link>
+                <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                <Nav.Link href="/contact">Contact</Nav.Link>
+                <Nav.Link href="/resume">Resume</Nav.Link>
             </Nav>
             <Form inline>
                 <FormControl type="text" placeholder="Search portfolio projects" className="mr-sm-2" />

@@ -1,17 +1,25 @@
-import React from "react";
-import Footer from "../components/Footer";
+import React, {useState} from "react";
 import "../App.css";
-import Navbar from "../components/Navbar";
-import Card from "../components/Card";
+import CardProf from "../components/Card";
+import projects from "../projects.json";
+import Card from 'react-bootstrap/Card';
+
+// import { returnStatement } from "@babel/types";
 
 function Portfolio() {
 
-  return (
+    // const [projectList, setProjectList] = useState (projects);
+
+    return(
     <>
-    <Navbar />
-    <Card />
-    <Card />
-    <Footer />
+    <CardProf> {projects.map((project, index) => {
+        return (
+            <Card project={project}/>
+        )
+    }
+    )}
+    </CardProf>
+    <CardProf />
     </>
   )
 }

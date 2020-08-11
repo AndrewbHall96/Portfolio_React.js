@@ -1,6 +1,7 @@
 import React from "react";
 // import "../styles/Footer.css";
 import Jumbotron from 'react-bootstrap/Jumbotron'
+
 function Navbar() {
     return (
         <Navbar bg="dark" variant="dark">

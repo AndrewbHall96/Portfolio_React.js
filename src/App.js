@@ -11,8 +11,7 @@ import Wrapper from "./components/Wrapper";
 function App() {
 
   return (
-    <>
-      <Router>
+    <Router>
       <div>
         <Navbar />
         <Wrapper>
@@ -25,8 +24,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-    </>
-  )
+  );
 }
 
 export default App;
