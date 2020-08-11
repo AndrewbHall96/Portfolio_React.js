@@ -1,8 +1,9 @@
-import React, {useState} from "react";
+// import React, {useState} from "react";
+import React from "react";
 import "../App.css";
 import CardProf from "../components/Card";
 import projects from "../projects.json";
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 
 // import { returnStatement } from "@babel/types";
 
@@ -14,7 +15,7 @@ function Portfolio() {
     <>
     <CardProf> {projects.map((project, index) => {
         return (
-            <Card project={project}/>
+            <CardProf project={project}/>
         )
     }
     )}
