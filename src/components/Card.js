@@ -8,42 +8,42 @@ function CardProf(props) {
         <>
         <CardDeck>
             <Card>
-                <Card.Img variant="top" src={props.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
+                <Card.Img variant="top" src={props.project.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
                 <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
+                    <Card.Title>{props.project.name}</Card.Title>
                     <Card.Text>
-                        {props.technologiesUsed}
-                        {props.description}
+                        {props.project.technologiesUsed}
+                        {props.project.description}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">{props.contributors}</small>
+                    <small className="text-muted">{props.project.contributors}</small>
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src={props.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
+                <Card.Img variant="top" src={props.project.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
                 <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
+                    <Card.Title>{props.project.name}</Card.Title>
                     <Card.Text>
-                        {props.technologiesUsed}
+                        {props.project.technologiesUsed}
                         {props.description}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">{props.contributors}</small>
+                    <small className="text-muted">{props.project.contributors}</small>
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src={props.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
+                <Card.Img variant="top" src={props.project.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
                 <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
+                    <Card.Title>{props.project.name}</Card.Title>
                     <Card.Text>
-                        {props.technologiesUsed}
-                        {props.description}
+                        {props.project.technologiesUsed}
+                        {props.project.description}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">{props.contributors}</small>
+                    <small className="text-muted">{props.project.contributors}</small>
                 </Card.Footer>
             </Card>
         </CardDeck>

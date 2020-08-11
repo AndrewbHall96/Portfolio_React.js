@@ -1,5 +1,4 @@
-// import React, {useState} from "react";
-import React from "react";
+import React, {useState} from "react";
 import "../App.css";
 import CardProf from "../components/Card";
 import projects from "../projects.json";
@@ -13,14 +12,13 @@ function Portfolio() {
 
     return(
     <>
-    <CardProf> {projects.map((project, index) => {
+    {projects.map((project, index) => {
         return (
             <CardProf project={project}/>
         )
     }
     )}
-    </CardProf>
-    <CardProf />
+    
     </>
   )
 }
