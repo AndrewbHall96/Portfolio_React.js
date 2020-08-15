@@ -6,13 +6,14 @@ import CardDeck from 'react-bootstrap/CardDeck'
 function CardProf(props) {
     return (
         <>
-        <CardDeck>
             <Card>
                 <Card.Img variant="top" src={props.project.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
                 <Card.Body>
                     <Card.Title>{props.project.name}</Card.Title>
                     <Card.Text>
                         {props.project.technologiesUsed}
+                        <br />
+                        <br />
                         {props.project.description}
                     </Card.Text>
                 </Card.Body>
@@ -20,7 +21,7 @@ function CardProf(props) {
                     <small className="text-muted">{props.project.contributors}</small>
                 </Card.Footer>
             </Card>
-            <Card>
+            {/* <Card>
                 <Card.Img variant="top" src={props.project.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
                 <Card.Body>
                     <Card.Title>{props.project.name}</Card.Title>
@@ -33,7 +34,7 @@ function CardProf(props) {
                     <small className="text-muted">{props.project.contributors}</small>
                 </Card.Footer>
             </Card>
-            <Card>
+            <Card> 
                 <Card.Img variant="top" src={props.project.image} className="card-img-top" alt="Project 1--COVID-19 Testing locator" />
                 <Card.Body>
                     <Card.Title>{props.project.name}</Card.Title>
@@ -45,8 +46,7 @@ function CardProf(props) {
                 <Card.Footer>
                     <small className="text-muted">{props.project.contributors}</small>
                 </Card.Footer>
-            </Card>
-        </CardDeck>
+            </Card>*/}
     </>
     );
 }

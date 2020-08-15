@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "COVID-19 Test Center Locator",
-        "image": "./images/covid.png",
+        "image": "/images/covid.png",
         "technologiesUsed":"Technologies used: Javascript, jQuery, UI Kit and API's.",
         "description": "  My group and I created an application that allows users to search Covid-19 test centers in their selected state. Our application pulls up the the name, address, hours of operations, with a map visual pulled from a google maps API.",
         "contributors": " Ester Min, Ben Acker, Wesley Tejeda"
@@ -10,7 +10,7 @@
     {
         "id": 1,
         "name": "TikTok Creator Search",
-        "image": "",
+        "image": "/images/creators.png",
         "technologiesUsed":"@GREGtube",
         "description": " 1.1 Million",
         "contributors": ""
@@ -18,7 +18,7 @@
     {
         "id": 2,
         "name": "Uni-Buy",
-        "image": "",
+        "image": "/images/unibuy.png",
         "technologiesUsed":"@GREGtube",
         "description": " 1.1 Million",
         "contributors": " Gary Bergman, Aakanksha Sharma, Alex Reichard"
@@ -26,7 +26,7 @@
     {
         "id": 3,
         "name": "Work Day Scheduler",
-        "image": "",
+        "image": "/images/scheduler.png",
         "technologiesUsed":"@GREGtube",
         "description": " 1.1 Million",
         "contributors": ""
@@ -34,14 +34,14 @@
     {
         "id": 4,
         "name": "Workout Tracker",
-        "image": "",
+        "image": "/images/fitnesstracker.png",
         "technologiesUsed":"Javascript, MongoDB",
         "description": " 1.1 Million",
         "contributors": ""
     },
     {
         "id": 5,
-        "name": "Police Tracker/Mapper",
+        "name": "Good Cop/Bad Cop",
         "image": "",
         "technologiesUsed":"@GREGtube",
         "description": " 1.1 Million",
